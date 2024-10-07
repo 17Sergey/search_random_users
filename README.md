@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# Searching between random users
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To use this app, you can visit [Deploy link](https://searchrandomuserss.netlify.app/)
 
-Currently, two official plugins are available:
+Or, if you prefer to download, go to the project folder and type ```npm run dev```. You'll see the port that your app is on and visit the http:localhost:<PORT>.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Open app. You should see a hint to enter a value into the field and press the Search button
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/fe5cccda-1f6a-4f18-80f0-3fc54c48f2bc)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## If you type the value to search for, this is the result when found:
 
-- Configure the top-level `parserOptions` property like this:
+![image](https://github.com/user-attachments/assets/741d6e4a-3461-45bc-995b-7373fc41aab4)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### And when not found:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![image](https://github.com/user-attachments/assets/0fe47c97-5e1a-4271-a2f9-3d96606ae7d5)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## If you leave the input empty, the app will give you all users:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![image](https://github.com/user-attachments/assets/8657bbe5-4374-4415-b159-9230af3957aa)
+
+## Also, error case:
+
+![image](https://github.com/user-attachments/assets/848d5c47-c3a9-497e-8a93-5c93a6ab4ff2)
+
+
+
