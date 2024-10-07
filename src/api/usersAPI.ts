@@ -10,9 +10,11 @@ const getAll = async () => {
 };
 
 const searchUsers = async (searchValue: string) => {
-    if (!searchValue) return null;
     const users = await getAll();
     const formattedUsers = formatUsers(users);
+
+    if (!searchValue) return formattedUsers;
+
     const foundUsers = searchUsersByName(formattedUsers, searchValue);
 
     return foundUsers;

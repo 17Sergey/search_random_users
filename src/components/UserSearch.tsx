@@ -77,6 +77,10 @@ const StyledError = styled.p`
 export const UserSearch = () => {
     const [searchValue, setSearchValue] = useState<string>("");
 
+    const handleSearchInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setSearchValue(e.target.value);
+    };
+
     const {
         data: users,
         isInitialLoading,
@@ -91,10 +95,6 @@ export const UserSearch = () => {
     });
 
     const isLoading = isInitialLoading || isRefetching;
-
-    const handleSearchInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-        setSearchValue(e.target.value);
-    };
 
     const searchUsers = async (e: MouseEvent<HTMLElement>) => {
         e.preventDefault();
