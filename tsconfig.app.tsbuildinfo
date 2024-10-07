@@ -1,1 +1,18 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/api/usersapi.ts","./src/components/user.tsx","./src/components/usersearch.tsx","./src/components/userslist.tsx","./src/utils/breakpoints.ts","./src/utils/escaperegexp.ts","./src/utils/formatusers.ts","./src/utils/querykeys.ts","./src/utils/searchusers.ts","./src/utils/types.d.ts"],"version":"5.6.2"}
+{
+    "root": [
+        "./src/app.tsx",
+        "./src/main.tsx",
+        "./src/vite-env.d.ts",
+        "./src/api/usersapi.ts",
+        "./src/components/user.tsx",
+        "./src/components/usersearch.tsx",
+        "./src/components/userslist.tsx",
+        "./src/utils/breakpoints.ts",
+        "./src/utils/escaperegexp.ts",
+        "./src/utils/formatusers.ts",
+        "./src/utils/querykeys.ts",
+        "./src/utils/searchusers.ts",
+        "./src/utils/types.d.ts"
+    ],
+    "version": "5.6.2"
+}
