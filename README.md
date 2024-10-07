@@ -2,7 +2,7 @@
 
 To use this app, you can visit [Deploy link](https://searchrandomuserss.netlify.app/)
 
-Or, if you prefer to download, go to the project folder and type ```npm run dev```. You'll see the port that your app is on and visit the http:localhost:<PORT>.
+Or, if you prefer to download, go to the project folder and type ```npm run dev```. You'll see the port that your app is on and visit the http:localhost:PORT.
 
 ## Open app. You should see a hint to enter a value into the field and press the Search button
 
