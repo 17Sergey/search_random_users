@@ -51,9 +51,10 @@ const StyledInput = styled.input`
 `;
 
 const StyledButton = styled.button`
-    background: rgba(0, 128, 0, 0.7);
+    background: rgba(8, 160, 8, 0.7);
     color: rgba(0, 0, 0, 0.8);
     border: none;
+    outline: none;
     border-radius: 0.25em;
     cursor: pointer;
     font-size: 1rem;
